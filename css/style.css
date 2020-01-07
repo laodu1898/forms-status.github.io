@@ -134,7 +134,12 @@ header div,header span{
 	height: 30px;
 	line-height: 30px;
 	position: relative;
+	margin-left: 75px;
 	margin-top: 5px;
+}
+.form .form-body #confirm-last{
+	margin-left: -80px;
+	margin-top: 15px;
 }
 .star{
 	position: absolute;

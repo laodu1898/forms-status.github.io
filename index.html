@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header>
+        <div class="wrapper-in">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>            
+            <div class="font-big">
+                高铁客户服务中心&nbsp;|&nbsp; 
+            </div> 
+            <div class="danse hand">
+                客户服务
+            </div>
+            <div class="hand">
+                意见反馈&nbsp;
+            </div>
+            <div class="orange hand">
+               775070521@qq.com&nbsp;&nbsp;
+            </div>
+            <span>
+                您好，请
+            </span>
+            <div class="orange hand">
+                登录
+            </div>
+            <span class="hand">
+                &nbsp;|&nbsp;注册
+            </span>
+            <div class="dropdown orange">
+                &nbsp;&nbsp;&nbsp;我的IMOOC&nbsp;
+                <div class="dropdown-down ">
+                    <p class="colorchange">未完成订单</p>
+                    <p class="line colorchange">已完成订单(改/退)</p>
+                    <p class="line colorchange">我的保险</p>
+                    <p class="colorchange">查看个人信息</p>
+                    <p class="line colorchange">账户安全</p>
+                    <p class="line colorchange">常用联系人</p>
+                    <p class="colorchange">重点旅客预约</p>
+                    <p class="line colorchange">遗失物品查找</p>
+                    <p class="line colorchange">服务查询</p>
+                    <p class="colorchange">投诉</p>
+                    <p class="colorchange">建议</p>
+                </div>
+            </div>
+            <span>▼</span>
+            <div class="phone">
+                <img src="images/phone.png">&nbsp;<span class="hand">手机版</span>
+            </div>
+        </div>
+        </header>
+        <section class="form">
+            <div class="form-top">
+                <div class="form-top-left">
+                   您现在的位置 
+                </div>
+                <div class="form-top-right">
+                    ：客运首页&nbsp;>&nbsp;注册
+                </div>
+            </div>
+            <div class="form-body">
+                <div class="form-header">
+                    账户信息
+                </div>
+                <div class="form-content" id="form">
+                    <div class="form-confirm">
+                        <span class="star">*</span><p>&nbsp;&nbsp;用&nbsp;&nbsp;&nbsp;户&nbsp;&nbsp;&nbsp;名：</p><input type="text" name="name" id="username" >
+                        <span class="present">6-30位字母、数字或‘_’,字母开头</span>
+                    </div>
+                    <div class="form-confirm">
+                        <span class="star">*</span><p>&nbsp;&nbsp;登&nbsp;录&nbsp;密&nbsp;码：</p><input type="text" name="name" id="pass" >                       
+                        <div class="square">
+                            <div class="square-red single"></div>        
+                            <div class="square-yellow single" ></div>        
+                            <div class="square-blue single"></div>        
+                        </div>
+                        <span class="present"></span>                       
+                    </div>
+                    <div class="present-1">6-20位数字,字母或符号</div>
+                    <div class="form-confirm">
+                        <span class="star">*</span><p>&nbsp;&nbsp;确&nbsp;认&nbsp;密&nbsp;码：</p><input type="text" name="name" id="username" >
+                        <span class="present">两次密码输入不一致</span>
+                    </div>
+                    <div class="form-confirm">
+                        <span class="star">*</span><p>&nbsp;姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</p><input type="text" name="name" id="username" ><span class="present">姓名只能包含中文或者英文且字符在3~30个之间</span>
+                    </div>
+                    <div class="form-confirm">
+                        <span class="star">*</span><p class="identity">&nbsp;&nbsp;证&nbsp;件&nbsp;类&nbsp;型：</p><select id="identity"><option value="身份证" selected>二代身份证</option><option value="护照">护照</option></select><span ></span>
+                    </div>
+                   <div class="form-confirm">
+                        <span class="star">*</span><p >&nbsp;&nbsp;身份证号码：</p><input type="text" name="name" id="username" >
+                        <span class="present">请输入18位的身份证号码</span>
+                    </div>
+                    <div class="form-confirm">
+                        <span class="star">*</span><p>&nbsp;&nbsp;邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱：</p><input type="text" name="name" id="username" >
+                        <span class="present">邮箱格式不正确</span>
+                    </div>
+                    <div class="form-confirm">
+                        <span class="star">*</span><p>&nbsp;手&nbsp;机&nbsp;号&nbsp;码：</p><input type="text" name="name" id="username" >
+                        <span class="present">您输入的手机号码不是正确的格式！</span>
+                    </div>
+                    <div class="form-confirm">
+                        <span class="star">*</span><p class="passenger">&nbsp;&nbsp;旅&nbsp;客&nbsp;类&nbsp;型：</p><select id="passenger"><option value="adult" selected>成人</option><option value="child">儿童</option></select><span class="present"></span>
+                    </div> 
+                    <div class="form-confirm">
+                        <input type="checkbox" name="name" id="square" class="regular-square">
+                        <div class="regular">
+                            我已阅读并同意遵守<span class="regular-blue">《中国铁路客户服务中心网站服务条款》</span>
+                        </div>
+                    </div>                   
+                    <input type="submit" value="下一步" id="submit">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>关于我们&nbsp;|&nbsp;网站声明</p>
+            <p>Copyright&nbsp;&copy;&nbsp;2017&nbsp;imooc.com&nbsp;All&nbsp;Rights&nbsp;Reserved&nbsp;|&nbsp;京ICP备&nbsp;13046642号-2</p>
+        </footer>
+        
+    </div>
+
+   <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

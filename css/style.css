@@ -28,7 +28,7 @@
 header{
 	width: 100%;
 	height: 125px;
-	background-color:#efefef; 
+	background-color:#efefef;
 	border-bottom:2px solid #2487c9;
 }
 header .logo{
@@ -73,7 +73,7 @@ header .danse{
 }
 header .dropdown-down p{
 	font-size: 15px;
-	color: #666666; 
+	color: #666666;
 	height: 34px;
 	width: 140px;
 	line-height: 34px;
@@ -95,7 +95,7 @@ header div,header span{
 	margin-top: 54px;
 }
 .form{
-    margin:0 auto;	
+    margin:0 auto;
     width: 1300px;
 	height: 650px;
 }
@@ -164,13 +164,13 @@ header div,header span{
 	width: 200px;
 	height: 40px;
 	position: absolute;
-	left: 50%; 
- 	margin-top: 30px; 
+	left: 50%;
+ 	margin-top: 30px;
  	margin-left: -100px;
-	border-radius: 5px;     
+	border-radius: 5px;
 	color: white;
 	background-color: #fb7403;
-	cursor: pointer; 
+	cursor: pointer;
 }
 .form .form-body .form-confirm .present{
 	color: red;
@@ -179,7 +179,7 @@ header div,header span{
 .form .form-body .form-confirm .present,.form .form-body .form-confirm .square{
     position:absolute;
     left: 630px;
-    display: none; 
+    display: none;
 }
 .form .form-body .form-confirm .square{
 	width: 140px;
@@ -192,7 +192,7 @@ header div,header span{
    display: inline-block;
 }
 .form .form-content .present-1{
-	margin-left:465px;
+	margin-left:540px;
 	color: red;
 	display: none;
     font-size: 14px;
@@ -201,7 +201,7 @@ header div,header span{
 	right: 810px;
 	width: 18px;
 	height: 18px;
-} 
+}
 .form .form-body .form-confirm .regular{
 	margin-left: 495px;
 }
@@ -211,7 +211,7 @@ header div,header span{
 footer{
 	width: 100%;
 	height: 125px;
-	background-color:#efefef; 
+	background-color:#efefef;
 	border-top:2px solid #2487c9;
 }
 
@@ -223,11 +223,10 @@ footer p{
 }
 footer p:first-of-type{
 	margin-top: 30px;
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
 }
 
 
 
 
 
- 
